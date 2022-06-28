@@ -11456,3 +11456,76 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+
+
+
+/* Added in marquee */
+marquee {
+  background-color: lightgrey;
+}
+
+.skills-list {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+marquee ul > li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+marquee li {
+  text-align: center;
+  width: 125px;
+}
+
+.skill {
+  text-align: center
+}
+
+
+
+
+
+/* Trying to make continuous marquee */
+/* .marquee {
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+.marquee .skill-bullet {
+  position: relative;
+  animation: marquee 30s infinite linear;
+  height: 20px;
+  display: table-cell;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    left: -310px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.skills-list {
+  list-style: none;
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+.marquee ul > li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.marquee li {
+  text-align: center;
+  width: 125px;
+}
+
+.skill {
+  text-align: center
+} */
