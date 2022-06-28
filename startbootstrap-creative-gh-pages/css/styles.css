@@ -11614,7 +11614,8 @@ marquee {
 
 marquee ul > li {
   display: inline-block;
-  margin: 0px 10px;
+  /* margin: 40px 10px; */
+  margin: 2.7rem 1rem;
 }
 
 marquee li {
