@@ -11634,68 +11634,16 @@ marquee li {
 }
 
 
-
-
-
-/* Trying to make continuous marquee */
-/* .marquee {
-  background-color: lightgrey;
-  overflow: hidden;
-}
-
-.marquee .skill-bullet {
-  position: relative;
-  animation: marquee 30s infinite linear;
-  height: 20px;
-  display: table-cell;
-}
-
-@-webkit-keyframes marquee {
-  0% {
-    left: -310px;
-  }
-  100% {
-    left: 100%;
-  }
-}
-
-.skills-list {
-  list-style: none;
-  margin-top: 1rem;
-  z-index: 1;
-}
-
-.marquee ul > li {
-  display: inline-block;
-  margin: 0px 10px;
-}
-
-.marquee li {
-  text-align: center;
-  width: 125px;
-}
-
-.skill {
-  text-align: center
-} */
-
-
+/* Other */
 .color1 {
   background-color: #332F2E;
 }
 
 .color2 {
   background-color: #000000;
-  /* background-color: #212529 */
-  /* background-color: #526475; */
-  /* background-color: lightgrey; */
-  /* background-color: #2B3036; */
-  /* background-color: #2FC3F5; */
-  /* background-color: #212529; */
 }
 
 
-/* Added code and app buttons */
 .code-app-btns {
   display: inline-block;
 }
@@ -11715,7 +11663,6 @@ marquee li {
   border: none;
 }
 
-
 .code-btn {
   margin-right: 30px;
 }
@@ -11725,7 +11672,6 @@ marquee li {
 }
 
 .projects {
-  /* background-color: black; */
   background-color: #212529;
 }
 
@@ -11736,4 +11682,10 @@ marquee li {
 .middle-section {
   border-style: solid;
   border-color: #212529;
+}
+
+.linkedin, .resume, .bar {
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 16px;
 }
