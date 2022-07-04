@@ -11728,3 +11728,7 @@ marquee li {
   /* background-color: black; */
   background-color: #212529;
 }
+
+.about-me {
+  font-size: 20px;
+}
