@@ -11527,7 +11527,13 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  /* original */
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
+
+  /* mine */
+  background: linear-gradient(to bottom, rgba(66, 77, 92, 0.6) 0%, rgba(92, 77, 66, 0.6) 100%), url("../assets/img/bg-masthead.jpg");
+
+
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11672,3 +11678,53 @@ marquee li {
 .skill {
   text-align: center
 } */
+
+
+.color1 {
+  background-color: #332F2E;
+}
+
+.color2 {
+  background-color: #000000;
+  /* background-color: #212529 */
+  /* background-color: #526475; */
+  /* background-color: lightgrey; */
+  /* background-color: #2B3036; */
+  /* background-color: #2FC3F5; */
+  /* background-color: #212529; */
+}
+
+
+/* Added code and app buttons */
+.code-app-btns {
+  display: inline-block;
+}
+
+.code-btn, .app-btn {
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: none;
+}
+
+.code-btn:hover, .app-btn:hover {
+  background-color: #2FC3F5;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: none;
+}
+
+
+.code-btn {
+  margin-right: 30px;
+}
+
+.app-btn {
+  margin-left: 30px;
+}
+
+.projects {
+  /* background-color: black; */
+  background-color: #212529;
+}
