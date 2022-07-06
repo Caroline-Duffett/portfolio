@@ -1,10 +1,15 @@
 # Portfolio
 Welcome to my portfolio website!
 
-##Technologies Used
+Link: https://carolineduffett.netlify.app/
 
+## Technologies Used
+Bootstrap
+JavaScript
+CSS
+HTML
+FormSubmit
 
-
-### Sources
-Start Bootstrap theme I used: https://startbootstrap.com/theme/creative
-My form is powered by formsubmit: https://formsubmit.co/
+## Sources
+Start Bootstrap theme used: https://startbootstrap.com/theme/creative
+My form is powered by FormSubmit: https://formsubmit.co/
