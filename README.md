@@ -13,3 +13,4 @@ Link: https://carolineduffett.netlify.app/
 ## Sources
 - Start Bootstrap theme used: https://startbootstrap.com/theme/creative
 - My form is powered by FormSubmit: https://formsubmit.co/
+- Favicon: https://favicon.io/emoji-favicons/desktop-computer/ 
